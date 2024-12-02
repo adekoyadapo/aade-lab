@@ -1,4 +1,4 @@
-zones     = ["aade.me", "360ace.net"]
+zones = ["aade.me", "360ace.net"]
 records = {
   "pxe" = {
     domain = "aade.me"
@@ -57,6 +57,18 @@ records = {
   "proxmox" = {
     domain = "aade.me"
     name   = "proxmox"
+    record = "acubed.asuscomm.com"
+    type   = "CNAME"
+  }
+  "search" = {
+    domain = "aade.me"
+    name   = "search"
+    record = "acubed.asuscomm.com"
+    type   = "CNAME"
+  }
+  "whodb" = {
+    domain = "aade.me"
+    name   = "whodb"
     record = "acubed.asuscomm.com"
     type   = "CNAME"
   }
