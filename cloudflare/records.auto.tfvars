@@ -72,4 +72,10 @@ records = {
     record = "acubed.asuscomm.com"
     type   = "CNAME"
   }
+  "unifi" = {
+    domain = "aade.me"
+    name   = "unifi"
+    record = "acubed.asuscomm.com"
+    type   = "CNAME"
+  }
 }
