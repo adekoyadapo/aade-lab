@@ -33,7 +33,7 @@ resource "cloudflare_record" "records" {
   for_each = var.records
   zone_id  = local.zones[each.value.domain].id
   name     = each.value.name
-  value    = each.value.record
+  content  = each.value.record
   type     = each.value.type
   ttl      = each.value.ttl
   comment  = "${each.key} - Created by Terraform"
