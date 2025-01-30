@@ -16,7 +16,7 @@ variable "records" {
     name    = string
     record  = string
     domain  = string
-    proxied = optional(bool, "false")
+    proxied = optional(bool, "true")
     type    = optional(string, "A")
     ttl     = optional(number)
     tags    = optional(list(string), ["home_server"])
