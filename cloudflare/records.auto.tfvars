@@ -3,79 +3,79 @@ records = {
   "pxe" = {
     domain = "aade.me"
     name   = "pxe"
-    record = "66.222.174.232"
-    type   = "A"
+    record = "aade.ddns.net"
+    type   = "CNAME"
   }
   "adguard" = {
     domain = "aade.me"
     name   = "adguard"
-    record = "66.222.174.232"
-    type   = "A"
+    record = "aade.ddns.net"
+    type   = "CNAME"
   }
   "print" = {
     domain = "aade.me"
     name   = "print"
-    record = "66.222.174.232"
-    type   = "A"
+    record = "aade.ddns.net"
+    type   = "CNAME"
   }
   "auth" = {
     domain = "aade.me"
     name   = "auth"
-    record = "66.222.174.232"
-    type   = "A"
+    record = "aade.ddns.net"
+    type   = "CNAME"
   }
   "fm" = {
     domain = "aade.me"
     name   = "fm"
-    record = "66.222.174.232"
-    type   = "A"
+    record = "aade.ddns.net"
+    type   = "CNAME"
   }
   "gitea" = {
     domain = "aade.me"
     name   = "gitea"
-    record = "66.222.174.232"
-    type   = "A"
+    record = "aade.ddns.net"
+    type   = "CNAME"
   }
   "hassio" = {
     domain = "aade.me"
     name   = "hassio"
-    record = "66.222.174.232"
-    type   = "A"
+    record = "aade.ddns.net"
+    type   = "CNAME"
   }
   "npm" = {
     domain = "aade.me"
     name   = "npm"
-    record = "66.222.174.232"
-    type   = "A"
+    record = "aade.ddns.net"
+    type   = "CNAME"
   }
   "portainer" = {
     domain = "aade.me"
     name   = "portainer"
-    record = "66.222.174.232"
-    type   = "A"
+    record = "aade.ddns.net"
+    type   = "CNAME"
   }
   "proxmox" = {
     domain = "aade.me"
     name   = "proxmox"
-    record = "66.222.174.232"
-    type   = "A"
+    record = "aade.ddns.net"
+    type   = "CNAME"
   }
   "search" = {
     domain = "aade.me"
     name   = "search"
-    record = "66.222.174.232"
-    type   = "A"
+    record = "aade.ddns.net"
+    type   = "CNAME"
   }
   "whodb" = {
     domain = "aade.me"
     name   = "whodb"
-    record = "66.222.174.232"
-    type   = "A"
+    record = "aade.ddns.net"
+    type   = "CNAME"
   }
   "unifi" = {
     domain = "aade.me"
     name   = "unifi"
-    record = "66.222.174.232"
-    type   = "A"
+    record = "aade.ddns.net"
+    type   = "CNAME"
   }
 }
