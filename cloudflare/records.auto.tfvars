@@ -78,4 +78,11 @@ records = {
     record = "aade.ddns.net"
     type   = "CNAME"
   }
+  "intercept" = {
+    domain  = "aade.me"
+    name    = "intercept"
+    record  = "34.54.232.162"
+    type    = "A"
+    proxied = false
+  }
 }
