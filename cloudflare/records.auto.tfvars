@@ -18,9 +18,9 @@ records = {
     record = "aade.ddns.net"
     type   = "CNAME"
   }
-  "auth" = {
+  "emby" = {
     domain = "aade.me"
-    name   = "auth"
+    name   = "emby"
     record = "aade.ddns.net"
     type   = "CNAME"
   }
