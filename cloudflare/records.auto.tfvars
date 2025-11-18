@@ -48,21 +48,15 @@ records = {
     record = "aade.ddns.net"
     type   = "CNAME"
   }
-  "portainer" = {
+  "nas" = {
     domain = "aade.me"
-    name   = "portainer"
+    name   = "nas"
     record = "aade.ddns.net"
     type   = "CNAME"
   }
-  "proxmox" = {
+  "vcard" = {
     domain = "aade.me"
-    name   = "proxmox"
-    record = "aade.ddns.net"
-    type   = "CNAME"
-  }
-  "search" = {
-    domain = "aade.me"
-    name   = "search"
+    name   = "vcard"
     record = "aade.ddns.net"
     type   = "CNAME"
   }
@@ -77,13 +71,6 @@ records = {
     name   = "unifi"
     record = "aade.ddns.net"
     type   = "CNAME"
-  }
-  "intercept" = {
-    domain  = "aade.me"
-    name    = "intercept"
-    record  = "34.54.232.162"
-    type    = "A"
-    proxied = false
   }
   "elastic-cloud" = {
     domain = "aade.me"
