@@ -18,9 +18,9 @@ records = {
     record = "aade.ddns.net"
     type   = "CNAME"
   }
-  "emby" = {
+  "pg" = {
     domain = "aade.me"
-    name   = "emby"
+    name   = "pg"
     record = "aade.ddns.net"
     type   = "CNAME"
   }
@@ -57,12 +57,6 @@ records = {
   "vcard" = {
     domain = "aade.me"
     name   = "vcard"
-    record = "aade.ddns.net"
-    type   = "CNAME"
-  }
-  "whodb" = {
-    domain = "aade.me"
-    name   = "whodb"
     record = "aade.ddns.net"
     type   = "CNAME"
   }
