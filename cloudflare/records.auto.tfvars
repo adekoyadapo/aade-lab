@@ -56,6 +56,13 @@ records = {
     type   = "CNAME"
     proxied = false
   }
+  "wifi" = {
+    domain = "aade.me"
+    name   = "wifi"
+    record = "pg.aade.me"
+    type   = "CNAME"
+    proxied = false
+  }
   "vcard" = {
     domain = "aade.me"
     name   = "vcard"
