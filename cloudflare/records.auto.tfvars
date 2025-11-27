@@ -21,13 +21,6 @@ records = {
     type   = "CNAME"
     proxied = false
   }
-  "pg" = {
-    domain = "aade.me"
-    name   = "pg"
-    record = "pg.aade.me"
-    type   = "CNAME"
-    proxied = false
-  }
   "fm" = {
     domain = "aade.me"
     name   = "fm"
