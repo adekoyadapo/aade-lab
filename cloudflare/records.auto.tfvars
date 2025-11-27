@@ -1,70 +1,81 @@
 zones = ["aade.me", "360ace.net"]
 records = {
-  "pxe" = {
-    domain = "aade.me"
-    name   = "pxe"
-    record = "aade.ddns.net"
-    type   = "CNAME"
-  }
-  "adguard" = {
-    domain = "aade.me"
-    name   = "adguard"
-    record = "aade.ddns.net"
-    type   = "CNAME"
-  }
-  "print" = {
-    domain = "aade.me"
-    name   = "print"
-    record = "aade.ddns.net"
-    type   = "CNAME"
-  }
   "pg" = {
     domain = "aade.me"
     name   = "pg"
     record = "aade.ddns.net"
     type   = "CNAME"
+    proxied = false
+  }
+  "adguard" = {
+    domain = "aade.me"
+    name   = "adguard"
+    record = "pg.aade.me"
+    type   = "CNAME"
+    proxied = false
+  }
+  "print" = {
+    domain = "aade.me"
+    name   = "print"
+    record = "pg.aade.me"
+    type   = "CNAME"
+    proxied = false
+  }
+  "pg" = {
+    domain = "aade.me"
+    name   = "pg"
+    record = "pg.aade.me"
+    type   = "CNAME"
+    proxied = false
   }
   "fm" = {
     domain = "aade.me"
     name   = "fm"
-    record = "aade.ddns.net"
+    record = "pg.aade.me"
     type   = "CNAME"
+    proxied = false
   }
   "gitea" = {
     domain = "aade.me"
     name   = "gitea"
-    record = "aade.ddns.net"
+    record = "pg.aade.me"
     type   = "CNAME"
+    proxied = false
   }
   "hassio" = {
     domain = "aade.me"
     name   = "hassio"
-    record = "aade.ddns.net"
+    record = "pg.aade.me"
     type   = "CNAME"
+    proxied = false
   }
   "npm" = {
     domain = "aade.me"
     name   = "npm"
-    record = "aade.ddns.net"
+    record = "pg.aade.me"
     type   = "CNAME"
+    proxied = false
   }
   "nas" = {
     domain = "aade.me"
     name   = "nas"
-    record = "aade.ddns.net"
+    record = "pg.aade.me"
     type   = "CNAME"
+    proxied = false
   }
   "vcard" = {
     domain = "aade.me"
     name   = "vcard"
-    record = "aade.ddns.net"
-    type   = "CNAME"
+    record = "pg.aade.me"
+    type   = "CNAME"  
+    proxied = false
   }
   "unifi" = {
     domain = "aade.me"
     name   = "unifi"
-    record = "aade.ddns.net"
+    record = "pg.aade.me"
     type   = "CNAME"
+    proxied = false
   }
   "elastic-cloud" = {
     domain = "aade.me"
